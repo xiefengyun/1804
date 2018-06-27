@@ -1,31 +1,30 @@
-02/shell±à³Ì
+02/shellç¼–ç¨‹
 
-ShellÊÇÓÃ»§ÓëÄÚºË½øÐÐ½»»¥²Ù×÷µÄÒ»ÖÖ½Ó¿Ú£¬Ä¿Ç°×îÁ÷ÐÐµÄShell³ÆÎªbash Shell
+Shellæ˜¯ç”¨æˆ·ä¸Žå†…æ ¸è¿›è¡Œäº¤äº’æ“ä½œçš„ä¸€ç§æŽ¥å£ï¼Œç›®å‰æœ€æµè¡Œçš„Shellç§°ä¸ºbash Shell
 
-ShellÒ²ÊÇÒ»ÃÅ±à³ÌÓïÑÔ<½âÊÍÐÍµÄ±à³ÌÓïÑÔ>£¬¼´shell½Å±¾<¾ÍÊÇÔÚÓÃlinuxµÄshellÃüÁî±à³Ì>
+Shellä¹Ÿæ˜¯ä¸€é—¨ç¼–ç¨‹è¯­è¨€<è§£é‡Šåž‹çš„ç¼–ç¨‹è¯­è¨€>ï¼Œå³shellè„šæœ¬<å°±æ˜¯åœ¨ç”¨linuxçš„shellå‘½ä»¤ç¼–ç¨‹>
 
-Ò»¸öÏµÍ³¿ÉÒÔ´æÔÚ¶à¸öshell£¬¿ÉÒÔÍ¨¹ýcat /etc/shellsÃüÁî²é¿´ÏµÍ³ÖÐ°²×°µÄshell£¬²»Í¬µÄshell¿ÉÄÜÖ§³ÖµÄÃüÁîÓï·¨ÊÇ²»ÏàÍ¬µÄ
-2.1 »ù±¾¸ñÊ½
-
-´úÂëÐ´ÔÚÆÕÍ¨ÎÄ±¾ÎÄ¼þÖÐ£¬Í¨³£ÒÔ .shÎªºó×ºÃû
+ä¸€ä¸ªç³»ç»Ÿå¯ä»¥å­˜åœ¨å¤šä¸ªshellï¼Œå¯ä»¥é€šè¿‡cat /etc/shellså‘½ä»¤æŸ¥çœ‹ç³»ç»Ÿä¸­å®‰è£…çš„shellï¼Œä¸åŒçš„shellå¯èƒ½æ”¯æŒçš„å‘½ä»¤è¯­æ³•æ˜¯ä¸ç›¸åŒçš„
+2.1 åŸºæœ¬æ ¼å¼
+ä»£ç å†™åœ¨æ™®é€šæ–‡æœ¬æ–‡ä»¶ä¸­ï¼Œé€šå¸¸ä»¥ .shä¸ºåŽç¼€å
 
 vi hello.sh
 
-#!/bin/bash    ## ±íÊ¾ÓÃÄÄÒ»ÖÖshell½âÎöÆ÷À´½âÎöÖ´ÐÐÎÒÃÇµÄÕâ¸ö½Å±¾³ÌÐò
+#!/bin/bash    ## è¡¨ç¤ºç”¨å“ªä¸€ç§shellè§£æžå™¨æ¥è§£æžæ‰§è¡Œæˆ‘ä»¬çš„è¿™ä¸ªè„šæœ¬ç¨‹åº
 
-echo "hello world"   ##  ×¢ÊÍÒ²¿ÉÒÔÐ´ÔÚÕâÀï
+echo "hello world"   ##  æ³¨é‡Šä¹Ÿå¯ä»¥å†™åœ¨è¿™é‡Œ
 
-## ÕâÊÇÒ»ÐÐ×¢ÊÍ
+## è¿™æ˜¯ä¸€è¡Œæ³¨é‡Š
 
  
 
-Ö´ÐÐ½Å±¾
+æ‰§è¡Œè„šæœ¬
 
 sh hello.sh
 
  
 
-»ò¸ø½Å±¾Ìí¼ÓxÈ¨ÏÞ£¬Ö±½ÓÖ´ÐÐ
+æˆ–ç»™è„šæœ¬æ·»åŠ xæƒé™ï¼Œç›´æŽ¥æ‰§è¡Œ
 
 chmod 755 hello.sh
 
@@ -36,37 +35,37 @@ chmod 755 hello.sh
  
 
  
-2.2 »ù±¾Óï·¨
-2.2.1 ÏµÍ³±äÁ¿
+2.2 åŸºæœ¬è¯­æ³•
+2.2.1 ç³»ç»Ÿå˜é‡
 
-Linux ShellÖÐµÄ±äÁ¿·ÖÎª¡°ÏµÍ³±äÁ¿¡±ºÍ¡°ÓÃ»§×Ô¶¨Òå±äÁ¿¡±
+Linux Shellä¸­çš„å˜é‡åˆ†ä¸ºâ€œç³»ç»Ÿå˜é‡â€å’Œâ€œç”¨æˆ·è‡ªå®šä¹‰å˜é‡â€
 
-¿ÉÒÔÍ¨¹ýsetÃüÁî²é¿´ÏµÍ³±äÁ¿
+å¯ä»¥é€šè¿‡setå‘½ä»¤æŸ¥çœ‹ç³»ç»Ÿå˜é‡
 
-ÏµÍ³±äÁ¿£º$HOME¡¢$PWD¡¢$SHELL¡¢$USERµÈµÈ
-
- 
-2.2.2 ×Ô¶¨Òå±äÁ¿
-
-1¡¢Óï·¨
-
-±äÁ¿£½Öµ £¨ÀýÈçSTR=abc£©
-
-µÈºÅÁ½²à²»ÄÜÓÐ¿Õ¸ñ
-
-±äÁ¿Ãû³ÆÒ»°ãÏ°¹ßÎª´óÐ´
-
-Ê¹ÓÃ±äÁ¿£º $arg
-
-Ë«ÒýºÅºÍµ¥ÒýºÅÓÐÇø±ð£¬
-
-     Ë«ÒýºÅ½ö½«¿Õ¸ñÍÑÒâ£¬
-
-     µ¥ÒýºÅ»á½«±äÁ¿ÒýÓÃ±ÈÈç$paramÍÑÒâ
+ç³»ç»Ÿå˜é‡ï¼š$HOMEã€$PWDã€$SHELLã€$USERç­‰ç­‰
 
  
+2.2.2 è‡ªå®šä¹‰å˜é‡
 
-2¡¢Ê¾Àý
+1ã€è¯­æ³•
+
+å˜é‡ï¼å€¼ ï¼ˆä¾‹å¦‚STR=abcï¼‰
+
+ç­‰å·ä¸¤ä¾§ä¸èƒ½æœ‰ç©ºæ ¼
+
+å˜é‡åç§°ä¸€èˆ¬ä¹ æƒ¯ä¸ºå¤§å†™
+
+ä½¿ç”¨å˜é‡ï¼š $arg
+
+åŒå¼•å·å’Œå•å¼•å·æœ‰åŒºåˆ«ï¼Œ
+
+     åŒå¼•å·ä»…å°†ç©ºæ ¼è„±æ„ï¼Œ
+
+     å•å¼•å·ä¼šå°†å˜é‡å¼•ç”¨æ¯”å¦‚$paramè„±æ„
+
+ 
+
+2ã€ç¤ºä¾‹
 
 STR="hello world"
 
@@ -76,25 +75,25 @@ echo $A
 
 echo $STR
 
-Èç¹ûÏë´òÓ¡ hello worlds isgreater  ÔõÃ´°ì£¿
+å¦‚æžœæƒ³æ‰“å° hello worlds isgreater  æ€Žä¹ˆåŠžï¼Ÿ
 
-echo $STRs is greate ÐÐÂð£¿
+echo $STRs is greate è¡Œå—ï¼Ÿ
 
-²»ÐÐ£¬ÕýÈ·Ð´·¨ÊÇ£º
+ä¸è¡Œï¼Œæ­£ç¡®å†™æ³•æ˜¯ï¼š
 
 echo ${STR}s is greate
 
  
 
-unset A ³·Ïú±äÁ¿ A
+unset A æ’¤é”€å˜é‡ A
 
-readonly B=2 ÉùÃ÷¾²Ì¬µÄ±äÁ¿ B=2£¬²»ÄÜ unset
+readonly B=2 å£°æ˜Žé™æ€çš„å˜é‡ B=2ï¼Œä¸èƒ½ unset
 
  
 
-export  A   #¿É°Ñ±äÁ¿ÌáÉýÎªµ±Ç°shell½ø³ÌÖÐµÄÈ«¾Ö»·¾³±äÁ¿£¬¿É¹©ÆäËû×Óshell³ÌÐòÊ¹ÓÃ
+export  A   #å¯æŠŠå˜é‡æå‡ä¸ºå½“å‰shellè¿›ç¨‹ä¸­çš„å…¨å±€çŽ¯å¢ƒå˜é‡ï¼Œå¯ä¾›å…¶ä»–å­shellç¨‹åºä½¿ç”¨
 
-×¢ÒâÀí½âexport£º
+æ³¨æ„ç†è§£exportï¼š
 
 [root@shizhan01 scripts]# vi a.sh
 
@@ -120,113 +119,113 @@ echo $a
 
  
 
-È»ºóÖ´ÐÐ  ./a.sh £¬»á·¢ÏÖ b½Å±¾ÖÐ²¢Ã»ÓÐ°Ña½Å±¾ÖÐ¶¨ÒåµÄa±äÁ¿´òÓ¡³öÀ´
+ç„¶åŽæ‰§è¡Œ  ./a.sh ï¼Œä¼šå‘çŽ° bè„šæœ¬ä¸­å¹¶æ²¡æœ‰æŠŠaè„šæœ¬ä¸­å®šä¹‰çš„aå˜é‡æ‰“å°å‡ºæ¥
 
  
 
-Èç¹ûÒªÔÚbÖÐ´òÓ¡³öa½Å±¾µÄ±äÁ¿a£¬ÐèÒªÔÚa½Å±¾ÖÐ°Ñ±äÁ¿a×öexport¶¨Òå
+å¦‚æžœè¦åœ¨bä¸­æ‰“å°å‡ºaè„šæœ¬çš„å˜é‡aï¼Œéœ€è¦åœ¨aè„šæœ¬ä¸­æŠŠå˜é‡aåšexportå®šä¹‰
 
-´ËÊ±£¬a±äÁ¿¾Í³ÉÁËa.sh½Å±¾ËùÔÚbash½ø³ÌµÄÈ«¾Ö±äÁ¿£¬¸Ã½ø³ÌµÄËùÓÐ×Ó½ø³Ì¶¼ÄÜ·ÃÎÊµ½±äÁ¿a
-
- 
+æ­¤æ—¶ï¼Œaå˜é‡å°±æˆäº†a.shè„šæœ¬æ‰€åœ¨bashè¿›ç¨‹çš„å…¨å±€å˜é‡ï¼Œè¯¥è¿›ç¨‹çš„æ‰€æœ‰å­è¿›ç¨‹éƒ½èƒ½è®¿é—®åˆ°å˜é‡a
 
  
 
-ÁíÒ»ÖÖ·½Ê½£º
+ 
 
-Èç¹ûÔÚa.sh½Å±¾ÖÐÓÃÈçÏÂ·½Ê½µ÷ÓÃb.sh
+å¦ä¸€ç§æ–¹å¼ï¼š
 
-.  ./b.sh    ## ×¢Òâ£ºÖØµã¹Ø×¢×îÇ°ÃæÄÇ¸ö ¡°.¡±ºÅ
+å¦‚æžœåœ¨a.shè„šæœ¬ä¸­ç”¨å¦‚ä¸‹æ–¹å¼è°ƒç”¨b.sh
 
-»òÕß
+.  ./b.sh    ## æ³¨æ„ï¼šé‡ç‚¹å…³æ³¨æœ€å‰é¢é‚£ä¸ª â€œ.â€å·
+
+æˆ–è€…
 
 source ./b.sh   ##
 
-Ôò£¬b.sh¾ÍÔÚa.shËùÔÚµÄbash½ø³Ì¿Õ¼äÖÐÔËÐÐ
+åˆ™ï¼Œb.shå°±åœ¨a.shæ‰€åœ¨çš„bashè¿›ç¨‹ç©ºé—´ä¸­è¿è¡Œ
 
  
 
  
 
-×Ü½á£º
+æ€»ç»“ï¼š
 
-1¡¢a.shÖÐÖ±½Óµ÷ÓÃb.sh£¬»áÈÃb.shÔÚaËùÔÚµÄbash½ø³ÌµÄ¡°×Ó½ø³Ì¡±¿Õ¼äÖÐÖ´ÐÐ
+1ã€a.shä¸­ç›´æŽ¥è°ƒç”¨b.shï¼Œä¼šè®©b.shåœ¨aæ‰€åœ¨çš„bashè¿›ç¨‹çš„â€œå­è¿›ç¨‹â€ç©ºé—´ä¸­æ‰§è¡Œ
 
-2¡¢¶ø×Ó½ø³Ì¿Õ¼äÖ»ÄÜ·ÃÎÊ¸¸½ø³ÌÖÐÓÃexport¶¨ÒåµÄ±äÁ¿
+2ã€è€Œå­è¿›ç¨‹ç©ºé—´åªèƒ½è®¿é—®çˆ¶è¿›ç¨‹ä¸­ç”¨exportå®šä¹‰çš„å˜é‡
 
-3¡¢Ò»¸öshell½ø³ÌÎÞ·¨½«×Ô¼º¶¨ÒåµÄ±äÁ¿ÌáÉýµ½¸¸½ø³Ì¿Õ¼äÖÐÈ¥
+3ã€ä¸€ä¸ªshellè¿›ç¨‹æ— æ³•å°†è‡ªå·±å®šä¹‰çš„å˜é‡æå‡åˆ°çˆ¶è¿›ç¨‹ç©ºé—´ä¸­åŽ»
 
-4¡¢¡°.¡±ºÅÖ´ÐÐ½Å±¾Ê±£¬»áÈÃ½Å±¾ÔÚµ÷ÓÃÕßËùÔÚµÄshell½ø³Ì¿Õ¼äÖÐÖ´ÐÐ
-
- 
-
- 
-
-3¡¢·´ÒýºÅ¸³Öµ
-
-A=`ls -la`    ## ·´ÒýºÅ£¬ÔËÐÐÀïÃæµÄÃüÁî£¬²¢°Ñ½á¹û·µ»Ø¸ø±äÁ¿A
-
-A=$(ls -la)   ## µÈ¼ÛÓÚ·´ÒýºÅ
+4ã€â€œ.â€å·æ‰§è¡Œè„šæœ¬æ—¶ï¼Œä¼šè®©è„šæœ¬åœ¨è°ƒç”¨è€…æ‰€åœ¨çš„shellè¿›ç¨‹ç©ºé—´ä¸­æ‰§è¡Œ
 
  
 
  
 
-4¡¢ÌØÊâ±äÁ¿
+3ã€åå¼•å·èµ‹å€¼
 
-$? ±íÊ¾ÉÏÒ»¸öÃüÁîÍË³öµÄ×´Ì¬Âë
+A=`ls -la`    ## åå¼•å·ï¼Œè¿è¡Œé‡Œé¢çš„å‘½ä»¤ï¼Œå¹¶æŠŠç»“æžœè¿”å›žç»™å˜é‡A
 
-$$ ±íÊ¾µ±Ç°½ø³Ì±àºÅ
-
-$0 ±íÊ¾µ±Ç°½Å±¾Ãû³Æ
-
-$n ±íÊ¾nÎ»ÖÃµÄÊäÈë²ÎÊý£¨n´ú±íÊý×Ö£¬n>=1£©
-
-$#   ±íÊ¾²ÎÊýµÄ¸öÊý£¬³£ÓÃÓÚÑ­»·
-
-$*ºÍ$@ ¶¼±íÊ¾²ÎÊýÁÐ±í 
+A=$(ls -la)   ## ç­‰ä»·äºŽåå¼•å·
 
  
 
  
 
-×¢£º$*Óë$@Çø±ð
+4ã€ç‰¹æ®Šå˜é‡
 
-$* ºÍ $@ ¶¼±íÊ¾´«µÝ¸øº¯Êý»ò½Å±¾µÄËùÓÐ²ÎÊý
+$? è¡¨ç¤ºä¸Šä¸€ä¸ªå‘½ä»¤é€€å‡ºçš„çŠ¶æ€ç 
 
-¨¹  ²»±»Ë«ÒýºÅ" "°üº¬Ê±¡ª¡ª
+$$ è¡¨ç¤ºå½“å‰è¿›ç¨‹ç¼–å·
 
-$* ºÍ $@ ¶¼ÒÔ$1  $2  ¡­ $n µÄÐÎÊ½×é³É²ÎÊýÁÐ±í
+$0 è¡¨ç¤ºå½“å‰è„šæœ¬åç§°
 
-¨¹  µ±ËüÃÇ±»Ë«ÒýºÅ" "°üº¬Ê±¡ª¡ª
+$n è¡¨ç¤ºnä½ç½®çš„è¾“å…¥å‚æ•°ï¼ˆnä»£è¡¨æ•°å­—ï¼Œn>=1ï¼‰
 
-"$*" »á½«ËùÓÐµÄ²ÎÊý×÷ÎªÒ»¸öÕûÌå£¬ÒÔ"$1 $2 ¡­ $n"µÄÐÎÊ½×é³ÉÒ»¸öÕû´®£»
+$#   è¡¨ç¤ºå‚æ•°çš„ä¸ªæ•°ï¼Œå¸¸ç”¨äºŽå¾ªçŽ¯
 
-"$@" »á½«¸÷¸ö²ÎÊý·Ö¿ª£¬ÒÔ"$1" "$2" ¡­ "$n" µÄÐÎÊ½×é³ÉÒ»¸ö²ÎÊýÁÐ±í
+$*å’Œ$@ éƒ½è¡¨ç¤ºå‚æ•°åˆ—è¡¨ 
+
+ 
+
+ 
+
+æ³¨ï¼š$*ä¸Ž$@åŒºåˆ«
+
+$* å’Œ $@ éƒ½è¡¨ç¤ºä¼ é€’ç»™å‡½æ•°æˆ–è„šæœ¬çš„æ‰€æœ‰å‚æ•°
+
+Ã¼  ä¸è¢«åŒå¼•å·" "åŒ…å«æ—¶â€”â€”
+
+$* å’Œ $@ éƒ½ä»¥$1  $2  â€¦ $n çš„å½¢å¼ç»„æˆå‚æ•°åˆ—è¡¨
+
+Ã¼  å½“å®ƒä»¬è¢«åŒå¼•å·" "åŒ…å«æ—¶â€”â€”
+
+"$*" ä¼šå°†æ‰€æœ‰çš„å‚æ•°ä½œä¸ºä¸€ä¸ªæ•´ä½“ï¼Œä»¥"$1 $2 â€¦ $n"çš„å½¢å¼ç»„æˆä¸€ä¸ªæ•´ä¸²ï¼›
+
+"$@" ä¼šå°†å„ä¸ªå‚æ•°åˆ†å¼€ï¼Œä»¥"$1" "$2" â€¦ "$n" çš„å½¢å¼ç»„æˆä¸€ä¸ªå‚æ•°åˆ—è¡¨
 
  
 
  
-2.3 ÔËËã·û
-2.3.1 ËãÊýÔËËã
-1¡¢ÓÃexpr
+2.3 è¿ç®—ç¬¦
+2.3.1 ç®—æ•°è¿ç®—
+1ã€ç”¨expr
 
-¸ñÊ½ expr m + n »ò$((m+n)) ×¢ÒâexprÔËËã·û¼äÒªÓÐ¿Õ¸ñ
+æ ¼å¼ expr m + n æˆ–$((m+n)) æ³¨æ„exprè¿ç®—ç¬¦é—´è¦æœ‰ç©ºæ ¼
 
-ÀýÈç¼ÆËã£¨2£«3 £©¡Á4 µÄÖµ
+ä¾‹å¦‚è®¡ç®—ï¼ˆ2ï¼‹3 ï¼‰Ã—4 çš„å€¼
 
-1 .·Ö²½¼ÆËã
+1 .åˆ†æ­¥è®¡ç®—
          S=`expr 2 + 3`
-         expr $S \* 4       ##  *ºÅÐèÒª×ªÒå
+         expr $S \* 4       ##  *å·éœ€è¦è½¬ä¹‰
 
-2.Ò»²½Íê³É¼ÆËã
+2.ä¸€æ­¥å®Œæˆè®¡ç®—
 
          expr`expr 2 + 3 ` \* 4
 
          echo`expr \`expr 2 + 3\` \* 4`
 
  
-2¡¢ÓÃ(())
+2ã€ç”¨(())
 
 ((1+2))
 
@@ -240,12 +239,12 @@ echo $count
 
  
 
-µ«ÊÇÒªÏëÈ¡µ½ÔËËã½á¹û£¬ÐèÒªÓÃ$ÒýÓÃ
+ä½†æ˜¯è¦æƒ³å–åˆ°è¿ç®—ç»“æžœï¼Œéœ€è¦ç”¨$å¼•ç”¨
 
 a=$((1+2))
 
  
-3¡¢ÓÃ$[]
+3ã€ç”¨$[]
 
 a=$[1+2]
 
